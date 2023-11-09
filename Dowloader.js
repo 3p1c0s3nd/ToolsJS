@@ -1,7 +1,3 @@
-// Author     : NYAN CAT
-// Name       : JS Downloader
-// Contact    : https://github.com/NYAN-x-CAT
-
 // This script is distributed for educational purposes only.
 
 try {
